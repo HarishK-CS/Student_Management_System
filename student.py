@@ -180,7 +180,7 @@ class Student:
         btn_show_all = Button(search_frame, text="Show All",command=self.display_all,  font=("arial", 10, "bold"), width=15, bg="#FF4500", fg="white")
         btn_show_all.grid(row=0, column=4, padx=5)
 
-        # Table frame
+        # Table framess
         table_frame = Frame(data_right_frame, bd=4, relief=RIDGE)
         table_frame.place(x=0, y=70, width=750, height=300)
 
